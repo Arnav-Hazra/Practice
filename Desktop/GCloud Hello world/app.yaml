@@ -1,0 +1,8 @@
+runtime: pyton27
+
+threadsafe: false
+api_version: 1
+
+handlers:
+    -url: /.*
+    script: hello-world.py
